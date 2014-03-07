@@ -24,4 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
     vendor/samsung/royss/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
     vendor/samsung/royss/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
-    vendor/samsung/royss/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so
+    vendor/samsung/royss/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+    vendor/samsung/royss/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
+    vendor/samsung/royss/proprietary/lib/libsecnativefeature.so:/system/lib/libsecnativefeature.so
