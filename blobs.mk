@@ -16,7 +16,9 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
     vendor/samsung/royss/proprietary/lib/libacdapi_azi.so:/system/lib/libacdapi_azi.so \
-    vendor/samsung/royss/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/samsung/royss/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so
+#GSM
+PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
     vendor/samsung/royss/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/samsung/royss/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
@@ -27,3 +29,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/samsung/royss/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/samsung/royss/proprietary/lib/libsecnativefeature.so:/system/lib/libsecnativefeature.so
+#Camera
+PRODUCT_COPY_FILES += \
+    vendor/samsung/royss/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
+    vendor/samsung/royss/proprietary/lib/libimage-jpeg-enc-omx-comp.so:/system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/samsung/royss/proprietary/lib/libimage-omx-common.so:/system/lib/libimage-omx-common.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_faceproc.so:/system/lib/libmmcamera_faceproc.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_frameproc.so:/system/lib/libmmcamera_frameproc.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_hdr_lib.so:/system/lib/libmmcamera_hdr_lib.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_image_stab.so:/system/lib/libmmcamera_image_stab.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_interface2.so:/system/lib/libmmcamera_interface2.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
+    vendor/samsung/royss/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so
