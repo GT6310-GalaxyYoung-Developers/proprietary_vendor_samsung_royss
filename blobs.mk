@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
 #GSM
 PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
-    vendor/samsung/royss/proprietary/lib/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/samsung/royss/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/royss/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
     vendor/samsung/royss/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
@@ -28,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
     vendor/samsung/royss/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/samsung/royss/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-    vendor/samsung/royss/proprietary/lib/libsecnativefeature.so:/system/lib/libsecnativefeature.so
+    vendor/samsung/royss/proprietary/lib/libsecnativefeature.so:/system/lib/libsecnativefeature.so 
 #Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
@@ -40,4 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libmmcamera_image_stab.so:/system/lib/libmmcamera_image_stab.so \
     vendor/samsung/royss/proprietary/lib/libmmcamera_interface2.so:/system/lib/libmmcamera_interface2.so \
     vendor/samsung/royss/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
-    vendor/samsung/royss/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so
+    vendor/samsung/royss/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
+    vendor/samsung/royss/proprietary/cameradata/datapattern_420sp.yuv:/system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/royss/proprietary/cameradata/datapattern_front_420sp.yuv:/system/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/royss/proprietary/lib/hw/camera.msm7x27a.so:/system/lib/hw/camera.msm7x27a.so
