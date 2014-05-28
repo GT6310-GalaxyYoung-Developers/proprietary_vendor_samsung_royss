@@ -40,6 +40,44 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/royss/proprietary/lib/libmmcamera_interface2.so:/system/lib/libmmcamera_interface2.so \
     vendor/samsung/royss/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
     vendor/samsung/royss/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
-    vendor/samsung/royss/proprietary/cameradata/datapattern_420sp.yuv:/system/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/royss/proprietary/cameradata/datapattern_front_420sp.yuv:/system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/royss/proprietary/lib/hw/camera.msm7x27a.so:/system/lib/hw/camera.msm7x27a.so
+
+#Cameradata
+PRODUCT_COPY_FILES += \
+    vendor/samsung/royss/proprietary/cameradata/datapattern_420sp.yuv:/system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/royss/proprietary/cameradata/datapattern_front_420sp.yuv:/system/cameradata/datapattern_front_420sp.yuv
+
+#Binaries
+PRODUCT_COPY_FILES += \
+    vendor/samsung/royss/proprietary/bin/abtfilt:/system/bin/abtfilt \
+    vendor/samsung/royss/proprietary/bin/ATFWD-daemon:/system/bin/ATFWD-daemon \
+    vendor/samsung/royss/proprietary/bin/bridgemgrd:/system/bin/bridgemgrd \
+    vendor/samsung/royss/proprietary/bin/cnd:/system/bin/cnd \
+    vendor/samsung/royss/proprietary/bin/csr_dut:/system/bin/csr_dut \
+    vendor/samsung/royss/proprietary/bin/ddexe:/system/bin/ddexe \
+    vendor/samsung/royss/proprietary/bin/ds_fmc_appd:/system/bin/ds_fmc_appd \
+    vendor/samsung/royss/proprietary/bin/dun-server:/system/bin/dun-server \
+    vendor/samsung/royss/proprietary/bin/macloader:/system/bin/macloader \
+    vendor/samsung/royss/proprietary/bin/mfgloader:/system/bin/mfgloader \
+    vendor/samsung/royss/proprietary/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
+    vendor/samsung/royss/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
+    vendor/samsung/royss/proprietary/bin/netmgrd:/system/bin/netmgrd \
+    vendor/samsung/royss/proprietary/bin/port-bridge:/system/bin/port-bridge \
+    vendor/samsung/royss/proprietary/bin/sapd:/system/bin/sapd \
+    vendor/samsung/royss/proprietary/bin/synergy_service:/system/bin/synergy_service \
+    vendor/samsung/royss/proprietary/bin/thermald:/system/bin/thermald \
+    vendor/samsung/royss/proprietary/bin/usbhub:/system/bin/usbhub \
+    vendor/samsung/royss/proprietary/bin/usbhub_init:/system/bin/usbhub_init \
+    vendor/samsung/royss/proprietary/bin/wlandutservice:/system/bin/wlandutservice
+#Libs update
+PRODUCT_COPY_FILES += \
+    vendor/samsung/royss/proprietary/lib/libnl_2.so:/system/lib/libnl_2.so \
+    vendor/samsung/royss/proprietary/lib/libcneutils.so:/system/lib/libcneutils.so \
+    vendor/samsung/royss/proprietary/lib/libCommandSvc.so:/system/lib/libCommandSvc.so \
+    vendor/samsung/royss/proprietary/lib/libcneqmiutils.so:/system/lib/libcneqmiutils.so \
+    vendor/samsung/royss/proprietary/lib/liballjoyn.so:/system/lib/liballjoyn.so \
+    vendor/samsung/royss/proprietary/lib/libmm-abl.so:/system/lib/libmm-abl.so \
+    vendor/samsung/royss/proprietary/lib/libmm-abl-oem.so:/system/lib/libmm-abl-oem.so \
+    vendor/samsung/royss/proprietary/lib/libxml.so:/system/lib/libxml.so \
+    vendor/samsung/royss/proprietary/lib/libcnefeatureconfig.so:/system/lib/libcnefeatureconfig.so \
+    vendor/samsung/royss/proprietary/lib/libgemini.so:/system/lib/libgemini.so
